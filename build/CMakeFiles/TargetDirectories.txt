@@ -1,0 +1,3 @@
+/home/lucas/projects/robot_monitor/build/CMakeFiles/robot_monitor.dir
+/home/lucas/projects/robot_monitor/build/CMakeFiles/edit_cache.dir
+/home/lucas/projects/robot_monitor/build/CMakeFiles/rebuild_cache.dir
