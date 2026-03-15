@@ -12,12 +12,11 @@ struct SensorStats
     double average = 0.0;
 };
 
-
-class StatsCalculator {
+class StatsCalculator
+{
 public:
-    std::map<std::string,SensorStats>
-    calculateStats(const std::vector<SensorRecord>& records);
-
+    std::map<std::string, SensorStats>
+    calculateStats(const std::vector<SensorRecord> &records);
 };
 
 #endif

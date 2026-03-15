@@ -4,6 +4,7 @@
 #include "StatsCalculator.h"
 #include "Reporter.h"
 #include "Logger.h"
+#include "AlertChecker.h"
 int main()
 {
     // SensorRecord r(1001,"temp",36.5);
@@ -36,8 +37,10 @@ int main()
     Logger::info("Starting robot monitor...");
     Parser parser;
     Logger::info("Parser sensor_data.txt file.");
-    auto records =parser.parseFile("data/sensor_data.txt");
+    auto records = parser.parseFile("data/sensor_data.txt");
     Logger::info("Records loaded: " + std::to_string(records.size()));
+    Logger::info("Checking alerts...");
+    AlertChecker::checkAlerts(records);
     // StatsCalculator calculator;
     StatsCalculator calculator;
     Logger::info("Calculating statistics");

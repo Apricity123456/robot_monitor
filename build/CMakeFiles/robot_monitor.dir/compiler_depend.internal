@@ -1117,4 +1117,5 @@ CMakeFiles/robot_monitor.dir/src/main.cpp.o
  /home/lucas/projects/robot_monitor/include/Reporter.h
  /home/lucas/projects/robot_monitor/include/StatsCalculator.h
  /home/lucas/projects/robot_monitor/include/Logger.h
+ /home/lucas/projects/robot_monitor/include/AlertChecker.h
 

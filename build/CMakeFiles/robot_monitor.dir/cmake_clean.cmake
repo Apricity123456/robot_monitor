@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/robot_monitor.dir/src/AlertChecker.cpp.o"
+  "CMakeFiles/robot_monitor.dir/src/AlertChecker.cpp.o.d"
   "CMakeFiles/robot_monitor.dir/src/Logger.cpp.o"
   "CMakeFiles/robot_monitor.dir/src/Logger.cpp.o.d"
   "CMakeFiles/robot_monitor.dir/src/Parser.cpp.o"

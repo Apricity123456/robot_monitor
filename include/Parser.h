@@ -1,12 +1,13 @@
 #ifndef PARSER_H
 #define PARSER_H
 
-#include<vector>
-#include<string>
-#include"SensorRecord.h"
+#include <vector>
+#include <string>
+#include "SensorRecord.h"
 
-class Parser{
+class Parser
+{
 public:
-    std::vector<SensorRecord> parseFile(const std::string& filename);
+    std::vector<SensorRecord> parseFile(const std::string &filename);
 };
 #endif

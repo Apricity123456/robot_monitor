@@ -13,4 +13,5 @@ INCLUDE_DIRECTORIES(include)
  src/StatsCalculator.cpp
  src/Reporter.cpp
  src/Logger.cpp
+ src/AlertChecker.cpp
  )

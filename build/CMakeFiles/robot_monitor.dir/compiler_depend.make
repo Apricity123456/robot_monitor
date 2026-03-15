@@ -1110,7 +1110,8 @@ CMakeFiles/robot_monitor.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/erase_if.h \
   ../include/Reporter.h \
   ../include/StatsCalculator.h \
-  ../include/Logger.h
+  ../include/Logger.h \
+  ../include/AlertChecker.h
 
 
 ../src/main.cpp:
@@ -1408,6 +1409,8 @@ CMakeFiles/robot_monitor.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
 /usr/include/c++/11/initializer_list:
+
+../include/AlertChecker.h:
 
 /usr/include/c++/11/streambuf:
 

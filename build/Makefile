@@ -129,6 +129,30 @@ robot_monitor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_monitor.dir/build.make CMakeFiles/robot_monitor.dir/build
 .PHONY : robot_monitor/fast
 
+src/AlertChecker.o: src/AlertChecker.cpp.o
+.PHONY : src/AlertChecker.o
+
+# target to build an object file
+src/AlertChecker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_monitor.dir/build.make CMakeFiles/robot_monitor.dir/src/AlertChecker.cpp.o
+.PHONY : src/AlertChecker.cpp.o
+
+src/AlertChecker.i: src/AlertChecker.cpp.i
+.PHONY : src/AlertChecker.i
+
+# target to preprocess a source file
+src/AlertChecker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_monitor.dir/build.make CMakeFiles/robot_monitor.dir/src/AlertChecker.cpp.i
+.PHONY : src/AlertChecker.cpp.i
+
+src/AlertChecker.s: src/AlertChecker.cpp.s
+.PHONY : src/AlertChecker.s
+
+# target to generate assembly for a file
+src/AlertChecker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_monitor.dir/build.make CMakeFiles/robot_monitor.dir/src/AlertChecker.cpp.s
+.PHONY : src/AlertChecker.cpp.s
+
 src/Logger.o: src/Logger.cpp.o
 .PHONY : src/Logger.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... robot_monitor"
+	@echo "... src/AlertChecker.o"
+	@echo "... src/AlertChecker.i"
+	@echo "... src/AlertChecker.s"
 	@echo "... src/Logger.o"
 	@echo "... src/Logger.i"
 	@echo "... src/Logger.s"
