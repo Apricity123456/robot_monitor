@@ -341,6 +341,7 @@ CMakeFiles/robot_monitor.dir/src/Parser.cpp.o: ../src/Parser.cpp \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   ../include/SensorRecord.h \
+  ../include/Logger.h \
   /usr/include/c++/11/fstream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/ios \
